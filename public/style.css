@@ -2,8 +2,31 @@ body {
     font-family: 'Mulish', sans-serif;
 }
 
-.title{
+#overviewsection{
+    background-color:#F7F8FC;
+    ;
+}
+
+h2{
     font-weight: 700;
     color: #252733;
     font-size: 24px;
+}
+
+h3{
+    font-weight: 700;
+    color: #252733;
+    font-size: 19px;
+}
+
+h4{
+    font-weight: 600;
+    color: #9FA2B4;
+    font-size: 16px;
+}
+
+#todaystrends{
+    background-color:#FFFFFF;
+    border: 1px solid #DFE0EB;
+    border-radius: 8px;
 }
