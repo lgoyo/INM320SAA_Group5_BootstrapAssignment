@@ -4,7 +4,6 @@ body {
 
 #overviewsection{
     background-color:#F7F8FC;
-    ;
 }
 
 h2{
@@ -25,7 +24,34 @@ h4{
     font-size: 16px;
 }
 
+h5{
+    font-weight: 600;
+    color: #252733 ;
+    font-size: 14px;
+}
+
+.semi{
+    color: #C5C7CD;
+}
+
+/* VIEW DETAILS BUTTON */
+.view{
+    color: #3751FF;
+}
+
 #todaystrends{
+    background-color:#FFFFFF;
+    border: 1px solid #DFE0EB;
+    border-radius: 8px;
+}
+
+#additional{
+    border-radius: 0px 8px 8px 0px;
+    border: 1px solid transparent;
+    border-left-color: #DFE0EB ;
+}
+
+.col-4{
     background-color:#FFFFFF;
     border: 1px solid #DFE0EB;
     border-radius: 8px;
