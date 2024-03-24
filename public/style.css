@@ -98,3 +98,14 @@ h6{
     outline: none;
 }
 
+.custom-hr {
+    border-color: #007bff; 
+    border-width: 3px; 
+    width: 16px;
+}
+
+.custom-hr2 {
+    border-color: #9FA2B4; 
+    border-width: 3px; 
+    width: 16px;
+}
