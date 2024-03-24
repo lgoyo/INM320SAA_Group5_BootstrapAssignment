@@ -157,7 +157,26 @@
                 <div class="row" id="todaystrends">
                   
                   <div class="col">
-                    First in DOM, ordered last
+                    <div class="p-2" style="text-align: left;">
+                      <h3>Today's trends</h3>
+                    </div>
+
+                    <div class="hstack gap-3">
+
+                      <div class="p-2">
+                        <h6>as of 25 May 2019, 09:41 PM</h6>
+                      </div>
+
+                      <div class="p-2 ms-auto">
+                        <h6 class="semi">Today</h6>
+                      </div>
+
+                      <div class="p-2 ms">
+                        <hr class="border border-primary border-1 opacity-75">
+                      </div>
+
+                    </div>
+                    
                   </div>
 
 
@@ -204,6 +223,7 @@
               <div class="container">
                 <div class="row justify-content-between">
 
+                  <!-- UNRESOLVED TICKETS -->
                   <div class="col-4">
                     <div class="hstack gap-3">
 
@@ -217,43 +237,167 @@
 
                     </div>
 
+                    <div class="p-2">
+                      <h6>Group</h6>
+                    </div>
+                    
                     <div class="card-4">
                       <ul class="list-group list-group-flush">
 
                         <li class="list-group-item">
-                          <h5>Waiting on Feature Request</h5> 
+                          <div class="hstack gap-3">
+
+                            <div class="p">
+                              <h5>Waiting on Feature Request</h5> 
+                            </div>
+      
+                            <div class="p-2 ms-auto">
+                              <h5 class="semi">4238</h5>
+                            </div>
+      
+                          </div>
                         </li>
 
                         <li class="list-group-item">
-                          <h5>Awaiting Customer Response</h5>
+                          <div class="hstack gap-3">
+
+                            <div class="p">
+                              <h5>Awaiting Customer Response</h5>
+                            </div>
+      
+                            <div class="p-2 ms-auto">
+                              <h5 class="semi">1005</h5>
+                            </div>
+      
+                          </div>
                         </li>
 
                         <li class="list-group-item">
-                          <h5>Pending</h5>
+                          <div class="hstack gap-3">
+
+                            <div class="p">
+                              <h5>Awaiting Developer Fix</h5>
+                            </div>
+      
+                            <div class="p-2 ms-auto">
+                              <h5 class="semi">914</h5>
+                            </div>
+      
+                          </div>
                         </li>
 
+                        <li class="list-group-item">
+                          <div class="hstack gap-3">
+
+                            <div class="p">
+                              <h5>Pending</h5>
+                            </div>
+      
+                            <div class="p-2 ms-auto">
+                              <h5 class="semi">281</h5>
+                            </div>
+      
+                          </div>
+                        </li>
                       </ul>
                     </div>
                   </div>
 
-                  <div class="col-4">
-                    <h3>Tasks</h3>
+                  <!-- TASKS -->
+  
+                    <div class="col-4">
+                      
+                      <div class="hstack gap-3">
+  
+                        <div class="p-2">
+                          <h3>Tasks</h3>
+                        </div>
+  
+                        <div class="p-2 ms-auto">
+                          <h5 class="view">View all</h5>
+                        </div>
+  
+                      </div>
 
-                    <div class="card-4">
+                      <div class="p-2">
+                        <h6>Today</h6>
+                      </div>
+
+                   
                       <ul class="list-group list-group-flush">
 
                         <li class="list-group-item">
-                          <h5 class="semi">Create new task</h5> 
+                          <div class="hstack gap-3">
+  
+                            <div class="p-2">
+                              <h5 class="semi">Create new task</h5>
+                            </div>
+      
+                            <div class="p-2 ms-auto">
+                              <button type="button" class="plus-button">+</button>
+                            </div>
+      
+                          </div>
                         </li>
 
                         <li class="list-group-item">
-                          <h5>Finish ticket update</h5>
+                          <div class="hstack gap-3">
+                            <div class="p-2">
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                
+                                <label class="form-check-label" for="flexCheckDefault">
+                                  <h5>Finish ticket update</h5>
+                                </label>
+                              </div>
+                            </div>
+
+                            <div class="p-2 ms-auto">
+                              <h5 class="badge text-bg-warning"><span class="alert">URGENT</span></h5>
+                            </div>
+                          </div>
+
                         </li>
 
                         <li class="list-group-item">
-                          <h5>Update ticket report</h5>
+                          <div class="hstack gap-3">
+  
+                            <div class="p-2">
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                
+                                <label class="form-check-label" for="flexRadioDefault2">
+                                  <h5>Create new ticket example</h5>
+                                </label>
+                              </div>
+                            </div>
+
+                            <div class="p-2 ms-auto">
+                              <h5 class="badge text-bg-success"><span class="alert">NEW</span></h5>
+                            </div>
+
                         </li>
 
+                        <li class="list-group-item">
+                          <div class="hstack gap-3">
+  
+                            <div class="p-2">
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                                
+                                <label class="form-check-label" for="flexCheckChecked">
+                                  <h5>Update ticket report </h5>
+                                </label>
+                              </div>
+                            </div>
+
+                            <div class="p-2 ms-auto">
+                              <h5 class="badge text-bg-light"><span class="default">DEFAULT</span></h5>
+                            </div>
+
+                        </li>
+
+                        
                       </ul>
                     </div>
                   </div>

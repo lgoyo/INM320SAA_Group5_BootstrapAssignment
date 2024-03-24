@@ -30,6 +30,16 @@ h5{
     font-size: 14px;
 }
 
+h6{
+    font-size: 12px;
+    font-weight: 400;
+    color: #9FA2B4;
+}
+
+.support{
+    font-weight: 600;
+}
+
 .semi{
     color: #C5C7CD;
 }
@@ -37,6 +47,19 @@ h5{
 /* VIEW DETAILS BUTTON */
 .view{
     color: #3751FF;
+}
+
+/* ALERT BADGE */
+.alert{
+    color: #FFFFFF;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.default{
+    color: #9FA2B4;
+    font-size: 11px;
+    font-weight: 700;
 }
 
 #todaystrends{
@@ -56,3 +79,22 @@ h5{
     border: 1px solid #DFE0EB;
     border-radius: 8px;
 }
+
+#flexCheckDefault{
+    border-radius: 50%;
+}
+
+#flexCheckChecked{
+    border-radius: 50%;
+}
+
+.plus-button{
+    background-color: #F0F1F7;
+    color: #9FA2B4;
+    border: none;
+    border-radius: 8px;
+    width: 24px;
+    height: 24px;
+    outline: none;
+}
+
