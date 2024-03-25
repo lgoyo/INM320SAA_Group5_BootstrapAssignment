@@ -6,6 +6,10 @@ body {
     background-color:#F7F8FC;
 }
 
+span {
+    color: #FFFFFF;
+}
+
 h2{
     font-weight: 700;
     color: #252733;
