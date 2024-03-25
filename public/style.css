@@ -80,6 +80,19 @@ h6{
     border-radius: 8px;
 }
 
+#cardbg{
+    background-color:#FFFFFF;
+    border: 1px solid #DFE0EB;
+    border-radius: 8px;
+}
+
+#cardbg2{
+    background-color:#FFFFFF;
+    border: 1px solid #DFE0EB;
+    border-radius: 8px;
+}
+
+
 #flexCheckDefault{
     border-radius: 50%;
 }
